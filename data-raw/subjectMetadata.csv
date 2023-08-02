@@ -1,0 +1,336 @@
+scopus_subject_id,scopus_subject_name,scopus_subject_child_id,scopus_subject_child_name,custom_subject_grouping
+10,Multidisciplinary,1000,Multidisciplinary,Multidisciplinary
+11,Agricultural and Biological Sciences,1100,General Agricultural and Biological Sciences,Life
+11,Agricultural and Biological Sciences,1101,Agricultural and Biological Sciences (miscellaneous),Life
+11,Agricultural and Biological Sciences,1102,Agronomy and Crop Science,Life
+11,Agricultural and Biological Sciences,1103,Animal Science and Zoology,Life
+11,Agricultural and Biological Sciences,1104,Aquatic Science,Life
+11,Agricultural and Biological Sciences,1105,"Ecology, Evolution, Behavior and Systematics",Life
+11,Agricultural and Biological Sciences,1106,Food Science,Life
+11,Agricultural and Biological Sciences,1107,Forestry,Life
+11,Agricultural and Biological Sciences,1108,Horticulture,Life
+11,Agricultural and Biological Sciences,1109,Insect Science,Life
+11,Agricultural and Biological Sciences,1110,Plant Science,Life
+11,Agricultural and Biological Sciences,1111,Soil Science,Life
+12,Arts and Humanities,1200,General Arts and Humanities,Social
+12,Arts and Humanities,1201,Arts and Humanities (miscellaneous),Social
+12,Arts and Humanities,1202,History,Social
+12,Arts and Humanities,1203,Language and Linguistics,Social
+12,Arts and Humanities,1204,Archeology (arts and humanities),Social
+12,Arts and Humanities,1205,Classics,Social
+12,Arts and Humanities,1206,Conservation,Social
+12,Arts and Humanities,1207,History and Philosophy of Science,Social
+12,Arts and Humanities,1208,Literature and Literary Theory,Social
+12,Arts and Humanities,1209,Museology,Social
+12,Arts and Humanities,1210,Music,Social
+12,Arts and Humanities,1211,Philosophy,Social
+12,Arts and Humanities,1212,Religious Studies,Social
+12,Arts and Humanities,1213,Visual Arts and Performing Arts,Social
+13,"Biochemistry, Genetics and Molecular Biology",1300,"General Biochemistry,Genetics and Molecular Biology",Life
+13,"Biochemistry, Genetics and Molecular Biology",1301,"Biochemistry, Genetics and Molecular Biology (miscellaneous)",Life
+13,"Biochemistry, Genetics and Molecular Biology",1302,Aging,Life
+13,"Biochemistry, Genetics and Molecular Biology",1303,Biochemistry,Life
+13,"Biochemistry, Genetics and Molecular Biology",1304,Biophysics,Life
+13,"Biochemistry, Genetics and Molecular Biology",1305,Biotechnology,Life
+13,"Biochemistry, Genetics and Molecular Biology",1306,Cancer Research,Life
+13,"Biochemistry, Genetics and Molecular Biology",1307,Cell Biology,Life
+13,"Biochemistry, Genetics and Molecular Biology",1308,Clinical Biochemistry,Life
+13,"Biochemistry, Genetics and Molecular Biology",1309,Developmental Biology,Life
+13,"Biochemistry, Genetics and Molecular Biology",1310,Endocrinology,Life
+13,"Biochemistry, Genetics and Molecular Biology",1311,Genetics,Life
+13,"Biochemistry, Genetics and Molecular Biology",1312,Molecular Biology,Life
+13,"Biochemistry, Genetics and Molecular Biology",1313,Molecular Medicine,Life
+13,"Biochemistry, Genetics and Molecular Biology",1314,Physiology,Life
+13,"Biochemistry, Genetics and Molecular Biology",1315,Structural Biology,Life
+14,"Business, Management and Accounting",1400,"General Business,Management and Accounting",Social
+14,"Business, Management and Accounting",1401,"Business, Management and Accounting (miscellaneous)",Social
+14,"Business, Management and Accounting",1402,Accounting,Social
+14,"Business, Management and Accounting",1403,Business and International Management,Social
+14,"Business, Management and Accounting",1404,Management Information Systems,Social
+14,"Business, Management and Accounting",1405,Management of Technology and Innovation,Social
+14,"Business, Management and Accounting",1406,Marketing,Social
+14,"Business, Management and Accounting",1407,Organizational Behavior and Human Resource Management,Social
+14,"Business, Management and Accounting",1408,Strategy and Management,Social
+14,"Business, Management and Accounting",1409,"Tourism, Leisure and Hospitality Management",Social
+14,"Business, Management and Accounting",1410,Industrial Relations,Social
+15,Chemical Engineering,1500,General Chemical Engineering,Physical
+15,Chemical Engineering,1501,Chemical Engineering (miscellaneous),Physical
+15,Chemical Engineering,1502,Bioengineering,Physical
+15,Chemical Engineering,1503,Catalysis,Physical
+15,Chemical Engineering,1504,Chemical Health and Safety,Physical
+15,Chemical Engineering,1505,Colloid and Surface Chemistry,Physical
+15,Chemical Engineering,1506,Filtration and Separation,Physical
+15,Chemical Engineering,1507,Fluid Flow and Transfer Processes,Physical
+15,Chemical Engineering,1508,Process Chemistry and Technology,Physical
+16,Chemistry,1600,General Chemistry,Physical
+16,Chemistry,1601,Chemistry (miscellaneous),Physical
+16,Chemistry,1602,Analytical Chemistry,Physical
+16,Chemistry,1603,Electrochemistry,Physical
+16,Chemistry,1604,Inorganic Chemistry,Physical
+16,Chemistry,1605,Organic Chemistry,Physical
+16,Chemistry,1606,Physical and Theoretical Chemistry,Physical
+16,Chemistry,1607,Spectroscopy,Physical
+17,Computer Science,1700,General Computer Science,Physical
+17,Computer Science,1701,Computer Science (miscellaneous),Physical
+17,Computer Science,1702,Artificial Intelligence,Physical
+17,Computer Science,1703,Computational Theory and Mathematics,Physical
+17,Computer Science,1704,Computer Graphics and Computer-Aided Design,Physical
+17,Computer Science,1705,Computer Networks and Communications,Physical
+17,Computer Science,1706,Computer Science Applications,Physical
+17,Computer Science,1707,Computer Vision and Pattern Recognition,Physical
+17,Computer Science,1708,Hardware and Architecture,Physical
+17,Computer Science,1709,Human-Computer Interaction,Physical
+17,Computer Science,1710,Information Systems,Physical
+17,Computer Science,1711,Signal Processing,Physical
+17,Computer Science,1712,Software,Physical
+18,Decision Sciences,1800,General Decision Sciences,Social
+18,Decision Sciences,1801,Decision Sciences (miscellaneous),Social
+18,Decision Sciences,1802,Information Systems and Management,Social
+18,Decision Sciences,1803,Management Science and Operations Research,Social
+18,Decision Sciences,1804,"Statistics, Probability and Uncertainty",Social
+19,Earth and Planetary Sciences,1900,General Earth and Planetary Sciences,Physical
+19,Earth and Planetary Sciences,1901,Earth and Planetary Sciences (miscellaneous),Physical
+19,Earth and Planetary Sciences,1902,Atmospheric Science,Physical
+19,Earth and Planetary Sciences,1903,Computers in Earth Sciences,Physical
+19,Earth and Planetary Sciences,1904,Earth-Surface Processes,Physical
+19,Earth and Planetary Sciences,1905,Economic Geology,Physical
+19,Earth and Planetary Sciences,1906,Geochemistry and Petrology,Physical
+19,Earth and Planetary Sciences,1907,Geology,Physical
+19,Earth and Planetary Sciences,1908,Geophysics,Physical
+19,Earth and Planetary Sciences,1909,Geotechnical Engineering and Engineering Geology,Physical
+19,Earth and Planetary Sciences,1910,Oceanography,Physical
+19,Earth and Planetary Sciences,1911,Paleontology,Physical
+19,Earth and Planetary Sciences,1912,Space and Planetary Science,Physical
+19,Earth and Planetary Sciences,1913,Stratigraphy,Physical
+20,"Economics, Econometrics and Finance",2000,"General Economics,Econometrics and Finance",Social
+20,"Economics, Econometrics and Finance",2001,"Economics, Econometrics and Finance (miscellaneous)",Social
+20,"Economics, Econometrics and Finance",2002,Economics and Econometrics,Social
+20,"Economics, Econometrics and Finance",2003,Finance,Social
+21,Energy,2100,General Energy,Physical
+21,Energy,2101,Energy (miscellaneous),Physical
+21,Energy,2102,Energy Engineering and Power Technology,Physical
+21,Energy,2103,Fuel Technology,Physical
+21,Energy,2104,Nuclear Energy and Engineering,Physical
+21,Energy,2105,"Renewable Energy, Sustainability and the Environment",Physical
+22,Engineering,2200,General Engineering,Physical
+22,Engineering,2201,Engineering (miscellaneous),Physical
+22,Engineering,2202,Aerospace Engineering,Physical
+22,Engineering,2203,Automotive Engineering,Physical
+22,Engineering,2204,Biomedical Engineering,Physical
+22,Engineering,2205,Civil and Structural Engineering,Physical
+22,Engineering,2206,Computational Mechanics,Physical
+22,Engineering,2207,Control and Systems Engineering,Physical
+22,Engineering,2208,Electrical and Electronic Engineering,Physical
+22,Engineering,2209,Industrial and Manufacturing Engineering,Physical
+22,Engineering,2210,Mechanical Engineering,Physical
+22,Engineering,2211,Mechanics of Materials,Physical
+22,Engineering,2212,Ocean Engineering,Physical
+22,Engineering,2213,"Safety, Risk, Reliability and Quality",Physical
+22,Engineering,2214,Media Technology,Physical
+22,Engineering,2215,Building and Construction,Physical
+22,Engineering,2216,Architecture,Physical
+23,Environmental Science,2300,General Environmental Science,Physical
+23,Environmental Science,2301,Environmental Science (miscellaneous),Physical
+23,Environmental Science,2302,Ecological Modeling,Physical
+23,Environmental Science,2303,Ecology,Physical
+23,Environmental Science,2304,Environmental Chemistry,Physical
+23,Environmental Science,2305,Environmental Engineering,Physical
+23,Environmental Science,2306,Global and Planetary Change,Physical
+23,Environmental Science,2307,"Health, Toxicology and Mutagenesis",Physical
+23,Environmental Science,2308,"Management, Monitoring, Policy and Law",Physical
+23,Environmental Science,2309,Nature and Landscape Conservation,Physical
+23,Environmental Science,2310,Pollution,Physical
+23,Environmental Science,2311,Waste Management and Disposal,Physical
+23,Environmental Science,2312,Water Science and Technology,Physical
+24,Immunology and Microbiology,2400,General Immunology and Microbiology,Life
+24,Immunology and Microbiology,2401,Immunology and Microbiology (miscellaneous),Life
+24,Immunology and Microbiology,2402,Applied Microbiology and Biotechnology,Life
+24,Immunology and Microbiology,2403,Immunology,Life
+24,Immunology and Microbiology,2404,Microbiology,Life
+24,Immunology and Microbiology,2405,Parasitology,Life
+24,Immunology and Microbiology,2406,Virology,Life
+25,Materials Science,2500,General Materials Science,Physical
+25,Materials Science,2501,Materials Science (miscellaneous),Physical
+25,Materials Science,2502,Biomaterials,Physical
+25,Materials Science,2503,Ceramics and Composites,Physical
+25,Materials Science,2504,"Electronic, Optical and Magnetic Materials",Physical
+25,Materials Science,2505,Materials Chemistry,Physical
+25,Materials Science,2506,Metals and Alloys,Physical
+25,Materials Science,2507,Polymers and Plastics,Physical
+25,Materials Science,2508,"Surfaces, Coatings and Films",Physical
+26,Mathematics,2600,General Mathematics,Physical
+26,Mathematics,2601,Mathematics (miscellaneous),Physical
+26,Mathematics,2602,Algebra and Number Theory,Physical
+26,Mathematics,2603,Analysis,Physical
+26,Mathematics,2604,Applied Mathematics,Physical
+26,Mathematics,2605,Computational Mathematics,Physical
+26,Mathematics,2606,Control and Optimization,Physical
+26,Mathematics,2607,Discrete Mathematics and Combinatorics,Physical
+26,Mathematics,2608,Geometry and Topology,Physical
+26,Mathematics,2609,Logic,Physical
+26,Mathematics,2610,Mathematical Physics,Physical
+26,Mathematics,2611,Modeling and Simulation,Physical
+26,Mathematics,2612,Numerical Analysis,Physical
+26,Mathematics,2613,Statistics and Probability,Physical
+26,Mathematics,2614,Theoretical Computer Science,Physical
+27,Medicine,2700,General Medicine,Health
+27,Medicine,2701,Medicine (miscellaneous),Health
+27,Medicine,2702,Anatomy,Health
+27,Medicine,2703,Anesthesiology and Pain Medicine,Health
+27,Medicine,2704,Biochemistry (medical),Health
+27,Medicine,2705,Cardiology and Cardiovascular Medicine,Health
+27,Medicine,2706,Critical Care and Intensive Care Medicine,Health
+27,Medicine,2707,Complementary and Alternative Medicine,Health
+27,Medicine,2708,Dermatology,Health
+27,Medicine,2709,Drug Guides,Health
+27,Medicine,2710,Embryology,Health
+27,Medicine,2711,Emergency Medicine,Health
+27,Medicine,2712,"Endocrinology, Diabetes and Metabolism",Health
+27,Medicine,2713,Epidemiology,Health
+27,Medicine,2714,Family Practice,Health
+27,Medicine,2715,Gastroenterology,Health
+27,Medicine,2716,Genetics (clinical),Health
+27,Medicine,2717,Geriatrics and Gerontology,Health
+27,Medicine,2718,Health Informatics,Health
+27,Medicine,2719,Health Policy,Health
+27,Medicine,2720,Hematology,Health
+27,Medicine,2721,Hepatology,Health
+27,Medicine,2722,Histology,Health
+27,Medicine,2723,Immunology and Allergy,Health
+27,Medicine,2724,Internal Medicine,Health
+27,Medicine,2725,Infectious Diseases,Health
+27,Medicine,2726,Microbiology (medical),Health
+27,Medicine,2727,Nephrology,Health
+27,Medicine,2728,Neurology (clinical),Health
+27,Medicine,2729,Obstetrics and Gynecology,Health
+27,Medicine,2730,Oncology,Health
+27,Medicine,2731,Ophthalmology,Health
+27,Medicine,2732,Orthopedics and Sports Medicine,Health
+27,Medicine,2733,Otorhinolaryngology,Health
+27,Medicine,2734,Pathology and Forensic Medicine,Health
+27,Medicine,2735,"Pediatrics, Perinatology and Child Health",Health
+27,Medicine,2736,Pharmacology (medical),Health
+27,Medicine,2737,Physiology (medical),Health
+27,Medicine,2738,Psychiatry and Mental Health,Health
+27,Medicine,2739,"Public Health, Environmental and Occupational Health",Health
+27,Medicine,2740,Pulmonary and Respiratory Medicine,Health
+27,Medicine,2741,"Radiology, Nuclear Medicine and Imaging",Health
+27,Medicine,2742,Rehabilitation,Health
+27,Medicine,2743,Reproductive Medicine,Health
+27,Medicine,2744,Reviews and References (medical),Health
+27,Medicine,2745,Rheumatology,Health
+27,Medicine,2746,Surgery,Health
+27,Medicine,2747,Transplantation,Health
+27,Medicine,2748,Urology,Health
+28,Neuroscience,2800,General Neuroscience,Life
+28,Neuroscience,2801,Neuroscience (miscellaneous),Life
+28,Neuroscience,2802,Behavioral Neuroscience,Life
+28,Neuroscience,2803,Biological Psychiatry,Life
+28,Neuroscience,2804,Cellular and Molecular Neuroscience,Life
+28,Neuroscience,2805,Cognitive Neuroscience,Life
+28,Neuroscience,2806,Developmental Neuroscience,Life
+28,Neuroscience,2807,Endocrine and Autonomic Systems,Life
+28,Neuroscience,2808,Neurology,Life
+28,Neuroscience,2809,Sensory Systems,Life
+29,Nursing,2900,General Nursing,Health
+29,Nursing,2901,Nursing (miscellaneous),Health
+29,Nursing,2902,Advanced and Specialized Nursing,Health
+29,Nursing,2903,Assessment and Diagnosis,Health
+29,Nursing,2904,Care Planning,Health
+29,Nursing,2905,Community and Home Care,Health
+29,Nursing,2906,Critical Care Nursing,Health
+29,Nursing,2907,Emergency Nursing,Health
+29,Nursing,2908,Fundamentals and Skills,Health
+29,Nursing,2909,Gerontology,Health
+29,Nursing,2910,"Issues, Ethics and Legal Aspects",Health
+29,Nursing,2911,Leadership and Management,Health
+29,Nursing,2912,LPN and LVN,Health
+29,Nursing,2913,Maternity and Midwifery,Health
+29,Nursing,2914,Medical and Surgical Nursing,Health
+29,Nursing,2915,Nurse Assisting,Health
+29,Nursing,2916,Nutrition and Dietetics,Health
+29,Nursing,2917,Oncology (nursing),Health
+29,Nursing,2918,Pathophysiology,Health
+29,Nursing,2919,Pediatrics,Health
+29,Nursing,2920,Pharmacology (nursing),Health
+29,Nursing,2921,Psychiatric Mental Health,Health
+29,Nursing,2922,Research and Theory,Health
+29,Nursing,2923,Review and Exam Preparation,Health
+30,"Pharmacology, Toxicology and Pharmaceutics",3000,"General Pharmacology, Toxicology and Pharmaceutics",Life
+30,"Pharmacology, Toxicology and Pharmaceutics",3001,"Pharmacology, Toxicology and Pharmaceutics (miscellaneous)",Life
+30,"Pharmacology, Toxicology and Pharmaceutics",3002,Drug Discovery,Life
+30,"Pharmacology, Toxicology and Pharmaceutics",3003,Pharmaceutical Science,Life
+30,"Pharmacology, Toxicology and Pharmaceutics",3004,Pharmacology,Life
+30,"Pharmacology, Toxicology and Pharmaceutics",3005,Toxicology,Life
+31,Physics and Astronomy,3100,General Physics and Astronomy,Physical
+31,Physics and Astronomy,3101,Physics and Astronomy (miscellaneous),Physical
+31,Physics and Astronomy,3102,Acoustics and Ultrasonics,Physical
+31,Physics and Astronomy,3103,Astronomy and Astrophysics,Physical
+31,Physics and Astronomy,3104,Condensed Matter Physics,Physical
+31,Physics and Astronomy,3105,Instrumentation,Physical
+31,Physics and Astronomy,3106,Nuclear and High Energy Physics,Physical
+31,Physics and Astronomy,3107,"Atomic and Molecular Physics, and Optics",Physical
+31,Physics and Astronomy,3108,Radiation,Physical
+31,Physics and Astronomy,3109,Statistical and Nonlinear Physics,Physical
+31,Physics and Astronomy,3110,Surfaces and Interfaces,Physical
+32,Psychology,3200,General Psychology,Social
+32,Psychology,3201,Psychology (miscellaneous),Social
+32,Psychology,3202,Applied Psychology,Social
+32,Psychology,3203,Clinical Psychology,Social
+32,Psychology,3204,Developmental and Educational Psychology,Social
+32,Psychology,3205,Experimental and Cognitive Psychology,Social
+32,Psychology,3206,Neuropsychology and Physiological Psychology,Social
+32,Psychology,3207,Social Psychology,Social
+33,Social Sciences,3300,General Social Sciences,Social
+33,Social Sciences,3301,Social Sciences (miscellaneous),Social
+33,Social Sciences,3302,Archeology,Social
+33,Social Sciences,3303,Development,Social
+33,Social Sciences,3304,Education,Social
+33,Social Sciences,3305,"Geography, Planning and Development",Social
+33,Social Sciences,3306,Health (social science),Social
+33,Social Sciences,3307,Human Factors and Ergonomics,Social
+33,Social Sciences,3308,Law,Social
+33,Social Sciences,3309,Library and Information Sciences,Social
+33,Social Sciences,3310,Linguistics and Language,Social
+33,Social Sciences,3311,Safety Research,Social
+33,Social Sciences,3312,Sociology and Political Science,Social
+33,Social Sciences,3313,Transportation,Social
+33,Social Sciences,3314,Anthropology,Social
+33,Social Sciences,3315,Communication,Social
+33,Social Sciences,3316,Cultural Studies,Social
+33,Social Sciences,3317,Demography,Social
+33,Social Sciences,3318,Gender Studies,Social
+33,Social Sciences,3319,Life-span and Life-course Studies,Social
+33,Social Sciences,3320,Political Science and International Relations,Social
+33,Social Sciences,3321,Public Administration,Social
+33,Social Sciences,3322,Urban Studies,Social
+34,Veterinary,3400,General Veterinary,Health
+34,Veterinary,3401,Veterinary (miscellaneous),Health
+34,Veterinary,3402,Equine,Health
+34,Veterinary,3403,Food Animals,Health
+34,Veterinary,3404,Small Animals,Health
+35,Dentistry,3500,General Dentistry,Health
+35,Dentistry,3501,Dentistry (miscellaneous),Health
+35,Dentistry,3502,Dental Assisting,Health
+35,Dentistry,3503,Dental Hygiene,Health
+35,Dentistry,3504,Oral Surgery,Health
+35,Dentistry,3505,Orthodontics,Health
+35,Dentistry,3506,Periodontics,Health
+36,Health Professions,3600,General Health Professions,Health
+36,Health Professions,3601,Health Professions (miscellaneous),Health
+36,Health Professions,3602,Chiropractics,Health
+36,Health Professions,3603,Complementary and Manual Therapy,Health
+36,Health Professions,3604,Emergency Medical Services,Health
+36,Health Professions,3605,Health Information Management,Health
+36,Health Professions,3606,Medical Assisting and Transcription,Health
+36,Health Professions,3607,Medical Laboratory Technology,Health
+36,Health Professions,3608,Medical Terminology,Health
+36,Health Professions,3609,Occupational Therapy,Health
+36,Health Professions,3610,Optometry,Health
+36,Health Professions,3611,Pharmacy,Health
+36,Health Professions,3612,"Physical Therapy, Sports Therapy and Rehabilitation",Health
+36,Health Professions,3613,Podiatry,Health
+36,Health Professions,3614,Radiological and Ultrasound Technology,Health
+36,Health Professions,3615,Respiratory Care,Health
+36,Health Professions,3616,Speech and Hearing,Health
+NA,Unclassified,NA,Unclassified,Unclassified
