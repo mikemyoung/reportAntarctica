@@ -25,7 +25,7 @@ makeRelationalDatabase <- function(theData){
   theData <- theData %>%
     filter(!str_detect(author_name, "[a-z], "))
   
-  removedData <- nzAntDatabase %>%
+  removedData <- theData %>%
     filter(str_detect(author_name, "[a-z], "))
   
   if(nrow(removedData)){
