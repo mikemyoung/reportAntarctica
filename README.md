@@ -32,9 +32,9 @@ Access to citation data is requested through Scopus Support (https://service.els
 
 ```
 
-# 2023 Antarctica NZ publications (URL encoding required)
+# 2023 Antarctica NZ publications - see https://www.scopus.com/search/form.uri?display=advanced for advanced search guidance
 
-antnz <- makePublicationTable(theQuery = 'FUND-ALL%28%22Antarctica%20New%20Zealand%22+OR+%22Antarctica%20NZ%22%29%20AND%20PUBYEAR%20%3D%202023',
+antnz <- makePublicationTable(theQuery = 'FUND-ALL("Antarctica New Zealand" OR "Antarctica NZ" OR "Scott Base" OR NZARI OR "New Zealand Antarctic Research Institute") AND PUBYEAR IS 2023',
                               apiKey = yourApiKey)
                               
 ```
@@ -87,7 +87,8 @@ View(db$affiliation_table)
 
 ```
 # Add your query - identical syntax used when searching via Scopus Advanced Search
-query = '%28TITLE-ABS-KEY%28antarct*+OR+%22southern%20ocean%22+OR+%22ross%20sea%22+OR+%22amundsen%20sea%22+OR+%22weddell%20sea%22+OR+%22ross%20ice%20shelf%22%29%20AND%20NOT%20TITLE-ABS-KEY%28candida+OR+%22except%20antarctica%22+OR+%22not%20antarctica%22%29%29%20AND%20PUBYEAR%20%3D%202021+AND+AFFILCOUNTRY%28%22New%20Zealand%22%29'
+query = '(TITLE-ABS-KEY(antarct* OR "southern ocean" OR "ross sea" OR "amundsen sea" OR "weddell sea" OR "ross ice shelf") AND NOT TITLE-ABS-KEY(candida OR "except antarctica" OR "not antarctica")) AND PUBYEAR IS 2021 AND AFFILCOUNTRY("New Zealand")'
+
 
 
 # Run the query
