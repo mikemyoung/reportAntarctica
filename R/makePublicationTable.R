@@ -26,6 +26,7 @@
 #'
 #' @import tidyverse
 #' @import httr
+#' @import utils
 #'
 #' @export
 
@@ -56,6 +57,10 @@ makePublicationTable <- function(theQuery = NULL,
     stop("Maximum percentile year range is 10")
   }
 
+  
+  # URL encode the query
+  theQuery <- URLencode(theQuery)
+  
   message("Running query")
 
   thePublications <- getPublication(theQuery = theQuery, theApiKey = apiKey)
@@ -71,7 +76,8 @@ makePublicationTable <- function(theQuery = NULL,
   # Create a list of Scopus ids to iterate over
   scopusID_list <- split(thePublications, f=thePublications$scopus_id)
 
-
+  tryCatch( {
+    
   if(citations){
 
     message("Retrieving citations")
@@ -87,37 +93,61 @@ makePublicationTable <- function(theQuery = NULL,
     thePublications <- thePublications %>%
                        select(-citation_extraction_date) %>%
                        left_join(citationData, by = "scopus_id")
-
-  }
-
-
-
-  if(articleMetadata){
-
-  # Get the Author Data
-  message("Retrieving metadata: author details")
     
-  if(subjectMetadata){message("Retrieving metadata: subject classification")}
+    
+    # Format column order
+    citationStart <- min(as.numeric(substr(thePublications$cover_date, 1, 4)))
+    citationEnd <- max(as.numeric(substr(thePublications$cover_date, 1, 4)))
+    
+    citationNames <- c("total_citations", paste0("citations_", seq(citationStart, citationEnd, by = 1)), "citation_extraction_date")
 
-  theMetadata <- lapply(scopusID_list, function(x){getMetadata(theScopusID = x$scopus_id, theApiKey = apiKey, subjectMetadata = subjectMetadata)}) %>% bind_rows()
-
-  thePublications <- left_join(thePublications, theMetadata, by = "scopus_id")
-
-  
-  if(subjectMetadata){
-  # Clean where an undefined grouping is concatenated a asp classification
-  thePublications <- thePublications %>%
-    rowwise() %>%
-    mutate(custom_subject_grouping = ifelse(str_detect(custom_subject_grouping, "Undefined;|;Undefined"),
-                                            str_remove_all(custom_subject_grouping, "Undefined;|;Undefined"),
-                                            custom_subject_grouping)) %>%
-    ungroup()
-
-  }
-  
+  } else {
+    
+    citationNames <- c("total_citations", "citation_extraction_date")
   }
 
+  },
+  
+  error = function(e) { 
+    message("ERROR calling Citations from Scopus.")
+    
+  })
+  
+  
 
+  tryCatch( {
+    
+    if(articleMetadata){
+
+      # Get the Author Data
+      message("Retrieving metadata: author details")
+    
+    if(subjectMetadata){message("Retrieving metadata: subject classification")}
+
+      theMetadata <- lapply(scopusID_list, function(x){getMetadata(theScopusID = x$scopus_id, theApiKey = apiKey, subjectMetadata = subjectMetadata)}) %>% bind_rows()
+
+      thePublications <- left_join(thePublications, theMetadata, by = "scopus_id")
+
+  
+      if(subjectMetadata){
+      # Clean where an undefined grouping is concatenated a asp classification
+        thePublications <- thePublications %>%
+          rowwise() %>%
+          mutate(custom_subject_grouping = ifelse(str_detect(custom_subject_grouping, "Undefined;|;Undefined"),
+                                                  str_remove_all(custom_subject_grouping, "Undefined;|;Undefined"),
+                                                  custom_subject_grouping)) %>%
+          ungroup()
+
+      }
+  
+    }
+
+  },
+  
+  error = function(e) { 
+    message("ERROR calling Article Metadata from Scopus.")
+    
+  })
 
 
   if(onlineDate){
@@ -135,7 +165,9 @@ makePublicationTable <- function(theQuery = NULL,
   }
 
   
-  
+
+  tryCatch( {
+    
   if(metrics){
     
     # Get Article Metadata
@@ -172,29 +204,38 @@ makePublicationTable <- function(theQuery = NULL,
     
  }
     
-  # Format column order
-  citationStart <- min(as.numeric(substr(thePublications$cover_date, 1, 4)))
-  citationEnd <- max(as.numeric(substr(thePublications$cover_date, 1, 4)))
+  },
+ 
+ error = function(e) { 
+   
+   message("ERROR calling metrics from Scopus")
+   
+ })
 
-  if(citations){
-  citationNames <- c("total_citations", paste0("citations_", seq(citationStart, citationEnd, by = 1)), "citation_extraction_date")
-  } else {
-    citationNames <- c("total_citations", "citation_extraction_date")
-  }
-
+thePublications <- thePublications %>%
+    mutate(year = substr(cover_date, 1, 4))
+  
+# Order Columns
+tryCatch( {
   
   if(onlineDate){
     thePublications <- thePublications %>%
-      mutate(year = substr(cover_date, 1, 4)) %>%
-      select(year, cover_date, first_available_online, title, !! citationNames, everything())
+      select(year, cover_date, first_available_online, title, publication_name, doi, !! citationNames, everything())
   } else {
     thePublications <- thePublications %>%
-      mutate(year = substr(cover_date, 1, 4)) %>%
-      select(year, cover_date, title, !! citationNames, everything())
+      select(year, cover_date, title, publication_name, doi, !! citationNames, everything())
   }
 
+},
+
+warning = function(w) { 
   
-  message("Done!")
+  message("Columns could not be ordered - Scopus did not return all fields")
+  
+})
+  
+  
+  message("Publication retrieved!")
 
   return(thePublications)
 

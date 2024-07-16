@@ -88,7 +88,7 @@ getPublication <- function(theQuery = NULL, theApiKey){
     },
     
     error = function(e) { 
-      stop("INVALID CALL: Check parameter inputs, and that you are connected to your institutional IP Address")
+      stop("INVALID CALL: Check parameter inputs. Check connection to an institutional IP Address")
       })
 
   }
